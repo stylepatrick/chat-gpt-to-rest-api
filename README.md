@@ -1,7 +1,8 @@
 # chat-gpt-to-rest-api
- Interaction with ChatGPT over Spring Boot 3 REST API.
+ Interaction with ChatGPT over Spring Boot 3 REST API. Different Models can be used.
+ See details here: https://platform.openai.com/examples
  
- ### Example of a text translation service:
+ ### Example of a text translation service implementation:
  
  POST Request to **.../api/chat**
  ```
@@ -35,6 +36,3 @@ Response:
     }
 }
 ```
-
- **More examples can be found here:**
- https://platform.openai.com/examples
